@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+  font-family: sans-serif;
+}
+/*
+Name:John Ryan
+File:styles.css
+Date:June 2021
+ */
+h1.top {
+  line-height: 100px;
+  text-align: center;
+  background: rgb(104, 104, 104);
+  background: rgba(104, 104, 104, 0.8);
+  color: gold;
+
+  border-style: dashed;
+}
+header {
+  border: 5px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  text-align: center;
+  line-height: 3;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+}
+article {
+  border: 5px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  text-align: center;
+  line-height: 3;
+  width: 80%;
+
+  margin: auto;
+}
+article img {
+  width: 256px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+article h1{
+  text-align: center;
+  text-decoration: underline;
+}
+article p{
+  padding: 10px;
+}
+footer {
+  border: 5px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  text-align: center;
+
+  width: 80%;
+  height: 50px;
+  margin: auto;
+}
+form {
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.8);
+  width: 80%;
+  margin: auto;
+}
+  h2{
+    border: 5px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    text-align: center;
+    line-height: 3;
+    width: 80%;
+
+    margin: auto;
+}
+.script {
+  border: 5px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  padding-left: 1%;
+  line-height: 3;
+  width: 79%;
+  margin: auto;
+
+}
+.contact label {
+  display: block;
+}
+table {
+  border: 5px;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+th {
+  font-size: 36px;
+}
+tr, th, td {
+  border-style: solid;
+  border-color: darkgrey;
+  color: black;
+  text-align: left;
+  padding: 20px;
+}
+.link {
+  background-color: grey;
+  text-decoration: none;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px;
+  border-color: darkgrey;
+  border-style: solid;
+
+}
+.link:visited{
+  color:inherit;
+}
+.link:hover {
+  background-color: black;
+  color: white;
+}
+.homebg {
+  background: url(training.jpg);
+  background-size: cover;
+}
+.classesbg {
+  background: url(kettlebell.jpg);
+  background-size: cover;
+}
+.infobg {
+  background: url(stretching.jpg);
+  background-size: cover;
+}
