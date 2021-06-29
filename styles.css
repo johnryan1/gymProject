@@ -103,6 +103,7 @@ form {
 }
 .contact label {
   display: block;
+  text-align: left;
 }
 table {
   border: 5px;
